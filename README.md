@@ -1,4 +1,4 @@
-# Cybersecurity Awareness & Risk Analytics Platform
+# Cybersecurity Awareness Analytics
 
 ## Project Overview
 
