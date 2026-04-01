@@ -1,122 +1,111 @@
-# Cybersecurity Risk Intelligence Platform
+# 🔐 Cybersecurity Risk Intelligence Platform
 
-## Project Overview
-
-This project is an end-to-end **data engineering and analytics solution** designed to measure and improve cybersecurity awareness within an organization.
-
-It focuses on analyzing **user behavior**, identifying **security risks**, and evaluating the effectiveness of **training programs** in reducing vulnerabilities such as phishing attacks and unsafe practices.
-
----
-
-## Objectives
-
-* Track user interactions related to cybersecurity awareness
-* Measure risky behavior (e.g. phishing clicks, suspicious logins)
-* Evaluate training effectiveness using quiz performance and engagement
-* Develop a **risk scoring model** to identify high-risk users
-* Provide actionable insights through a dashboard
+![Status](https://img.shields.io/badge/Project-End--to--End%20BI-blue)
+![SQL](https://img.shields.io/badge/SQL-Data%20Warehouse-lightgrey)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![Focus](https://img.shields.io/badge/Domain-Cybersecurity%20Analytics-red)
 
 ---
 
-## Data Model (Star Schema)
+## 📌 Overview
 
-### Fact Table
+The **Cybersecurity Risk Intelligence Platform** is an end-to-end data engineering and analytics project that simulates and analyses cybersecurity awareness behaviour within an organisation.
 
-**Fact_User_Cyber_Event**
+It transforms raw behavioural events into structured intelligence to support:
 
-* Stores all cybersecurity-related user events
+- 🔍 User-level risk visibility  
+- 📊 Training effectiveness tracking  
+- ⚠️ Departmental risk profiling  
+- 📈 Security posture decision-making  
 
-### Dimension Tables
-
-* **Dim_User** → User attributes (department, role, location)
-* **Dim_Date** → Time-based analysis
-* **Dim_Training** → Training modules and metadata
-* **Dim_Threat** → Threat types and severity
-* **Dim_Event_Type** → Categorisation of events (Training, Risk, Awareness)
+This project demonstrates applied skills in **data engineering, SQL warehousing, analytics, and BI reporting**.
 
 ---
 
-## Relationships
+## 🎯 Business Problem
 
-* One-to-many relationships between dimensions and fact table
+Modern organisations struggle to quantify **human-driven cybersecurity risk**.
 
----
+Key challenges include:
 
-##  Key Metrics & KPIs
+- No structured visibility of user risk behaviour  
+- Limited measurement of training effectiveness  
+- Difficulty identifying vulnerable departments  
+- Lack of data-driven security decision-making  
 
-* Risk Score per user
-* Phishing Click Rate
-* Training Completion Rate
-* Quiz Performance (Pass/Fail)
-* Department Risk Ranking
-* Awareness Impact (Before vs After Training)
+This project addresses these gaps using a structured analytics pipeline.
 
 ---
 
-##  Risk Scoring Model
+## 🧠 Solution Approach
 
-The platform assigns a **risk weight** to each event:
+The solution follows a full **data engineering lifecycle**:
 
-```
-phishing_click        = +5
-quiz_failed           = +3
-suspicious_login      = +4
-training_completed    = -2
-phishing_reported     = -3
-```
+### 1. Data Simulation (Synthetic Layer)
 
-This allows calculation of:
+Realistic cybersecurity behaviour datasets were generated, including:
 
-* Individual risk scores
-* Department-level risk exposure
-* Behavioral trends over time
+- User activity events  
+- Phishing interactions  
+- Training records  
+- Risk signals  
 
 ---
 
-##  Tech Stack
+### 2. Data Architecture (Star Schema)
 
-* **SQL Server** → Data warehouse & transformations
-* **Python** → Data simulation (Pandas, Faker)
-* **Power BI** → Dashboard & visualization
-* **GitHub** → Version control & portfolio
+A dimensional model was designed for analytical scalability.
 
----
+**Fact Table**
+- `Fact_User_Cyber_Event`
 
-##  Project Structure
-
-```
-Cybersecurity-Awareness-Analytics/
-│
-├── data/                  # Raw & simulated data
-├── sql/
-│   ├── create_tables.sql
-│   ├── transformations.sql
-│
-├── python/
-│   └── data_generator.py
-│
-├── dashboard/
-│   └── screenshots/
-│
-├── README.md
-```
----
-
-##  Business Impact
-
-This project demonstrates how organizations can:
-
-* Identify vulnerable users and departments
-* Measure the effectiveness of cybersecurity training
-* Reduce human-related security risks
-* Improve overall cybersecurity posture
+**Dimension Tables**
+- `Dim_User`
+- `Dim_Training`
+- `Dim_Date`
+- `Dim_Threat`
+- `Dim_Event_Type`
 
 ---
 
-##  Author
+### 3. Data Warehouse (SQL Server)
 
-**Hlekane Ngobeni**
-Data & IT Professional | Aspiring Data Engineer
-Focused on building data-driven solutions for security, operations, and social impact
+Implemented using SQL Server:
+
+- Schema design (Star Schema)
+- Table creation and relationships
+- Data loading (CSV ingestion)
+- Schema refinement (ALTER operations)
+- Analytical query development
 
 ---
+
+### 4. Analytics Layer
+
+Key insights generated using SQL:
+
+- User risk scoring
+- Department risk comparison
+- Phishing click behaviour analysis
+- Training pass vs fail rates
+- Module performance trends
+
+---
+
+### 5. Reporting Layer (Power BI)
+
+Interactive dashboard enabling:
+
+- Department risk monitoring
+- Training effectiveness tracking
+- Behavioural trend analysis
+- High-risk user identification
+
+---
+
+📊 Key Metrics
+User Risk Score
+Phishing Click Rate
+Training Completion Rate
+Quiz Pass vs Fail Rate
+Department Risk Index
