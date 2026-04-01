@@ -1,111 +1,147 @@
-# 🔐 Cybersecurity Risk Intelligence Platform
+# Cybersecurity Risk Intelligence Platform
 
-![Status](https://img.shields.io/badge/Project-End--to--End%20BI-blue)
-![SQL](https://img.shields.io/badge/SQL-Data%20Warehouse-lightgrey)
-![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
-![Focus](https://img.shields.io/badge/Domain-Cybersecurity%20Analytics-red)
+> An end-to-end data engineering and analytics project that transforms raw cybersecurity behavioural events into structured intelligence — supporting risk visibility, training effectiveness measurement, and data-driven security decisions.
 
----
-
-## 📌 Overview
-
-The **Cybersecurity Risk Intelligence Platform** is an end-to-end data engineering and analytics project that simulates and analyses cybersecurity awareness behaviour within an organisation.
-
-It transforms raw behavioural events into structured intelligence to support:
-
-- 🔍 User-level risk visibility  
-- 📊 Training effectiveness tracking  
-- ⚠️ Departmental risk profiling  
-- 📈 Security posture decision-making  
-
-This project demonstrates applied skills in **data engineering, SQL warehousing, analytics, and BI reporting**.
+![SQL Server](https://img.shields.io/badge/SQL_Server-Data_Warehouse-lightgrey?logo=microsoftsqlserver&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![Star Schema](https://img.shields.io/badge/Architecture-Star_Schema-8A4FFF)
+![Domain](https://img.shields.io/badge/Domain-Cybersecurity_Analytics-E53935)
 
 ---
 
-## 🎯 Business Problem
+## Problem Statement
 
-Modern organisations struggle to quantify **human-driven cybersecurity risk**.
+Most organisations have no structured way to quantify **human-driven cybersecurity risk**. Security teams cannot easily measure whether training is working, which departments are most vulnerable, or which users require immediate intervention — because the data exists but isn't modelled for analysis.
 
-Key challenges include:
-
-- No structured visibility of user risk behaviour  
-- Limited measurement of training effectiveness  
-- Difficulty identifying vulnerable departments  
-- Lack of data-driven security decision-making  
-
-This project addresses these gaps using a structured analytics pipeline.
+This project addresses those gaps through a structured analytics pipeline applied to simulated organisational behaviour data.
 
 ---
 
-## 🧠 Solution Approach
+## Solution Overview
 
-The solution follows a full **data engineering lifecycle**:
+The platform follows a full **data engineering lifecycle** — from synthetic data generation through to an interactive Power BI dashboard.
 
-### 1. Data Simulation (Synthetic Layer)
-
-Realistic cybersecurity behaviour datasets were generated, including:
-
-- User activity events  
-- Phishing interactions  
-- Training records  
-- Risk signals  
+```
+Simulate data  →  Model schema  →  Build warehouse  →  SQL analytics  →  BI reporting
+```
 
 ---
 
-### 2. Data Architecture (Star Schema)
+## Data Architecture
 
-A dimensional model was designed for analytical scalability.
+A **star schema** was designed for analytical scalability and reporting performance.
 
-**Fact Table**
-- `Fact_User_Cyber_Event`
+**Fact table**
 
-**Dimension Tables**
-- `Dim_User`
-- `Dim_Training`
-- `Dim_Date`
-- `Dim_Threat`
-- `Dim_Event_Type`
+| Table | Description |
+|---|---|
+| `Fact_User_Cyber_Event` | Central table storing all user behavioural events with foreign keys to all dimensions |
 
----
+**Dimension tables**
 
-### 3. Data Warehouse (SQL Server)
-
-Implemented using SQL Server:
-
-- Schema design (Star Schema)
-- Table creation and relationships
-- Data loading (CSV ingestion)
-- Schema refinement (ALTER operations)
-- Analytical query development
+| Table | Description |
+|---|---|
+| `Dim_User` | User attributes — department, role, location |
+| `Dim_Training` | Training module details and pass thresholds |
+| `Dim_Date` | Time intelligence for trend and period analysis |
+| `Dim_Threat` | Threat classification and severity levels |
+| `Dim_Event_Type` | Event taxonomy (phishing, login, training, etc.) |
 
 ---
 
-### 4. Analytics Layer
+## Risk Scoring Model
 
-Key insights generated using SQL:
+A weighted scoring approach quantifies user behaviour and enables aggregation at both user and department level.
 
-- User risk scoring
-- Department risk comparison
-- Phishing click behaviour analysis
-- Training pass vs fail rates
-- Module performance trends
+| Event | Weight | Direction |
+|---|---|---|
+| `phishing_click` | 5 | Risk increase |
+| `suspicious_login` | 4 | Risk increase |
+| `quiz_failed` | 3 | Risk increase |
+| `training_completed` | 2 | Risk reduction |
+| `phishing_reported` | 3 | Risk reduction |
+
+Scores are aggregated per user and rolled up to department level to produce a **Department Risk Index**.
 
 ---
 
-### 5. Reporting Layer (Power BI)
+## Analytics Layer
 
-Interactive dashboard enabling:
+SQL-based analysis generates the following insights:
 
-- Department risk monitoring
-- Training effectiveness tracking
+- **User risk scoring** — composite score derived from weighted behavioural events
+- **Departmental risk profiling** — ranked risk index across all departments
+- **Phishing analysis** — click-through rates by department, role, and time period
+- **Training effectiveness** — module completion rates and quiz pass/fail ratios
+- **High-risk user identification** — flagging users for targeted security intervention
+
+---
+
+## Key Metrics
+
+| Metric | Description |
+|---|---|
+| User risk score | Weighted composite of behavioural risk signals per user |
+| Phishing click rate | % of phishing simulations clicked, segmented by department |
+| Training completion rate | % of assigned modules completed across the organisation |
+| Quiz pass vs fail rate | Assessment outcomes per training module |
+| Department risk index | Ranked risk score across all departments |
+
+---
+
+## Reporting (Power BI)
+
+An interactive dashboard delivers:
+
+- Department-level risk monitoring and drill-down
+- Training performance tracking over time
 - Behavioural trend analysis
-- High-risk user identification
+- High-risk user identification for security intervention
 
 ---
 
-📊 Key Metrics
-User Risk Score
-Phishing Click Rate
-Training Completion Rate
-Quiz Pass vs Fail Rate
-Department Risk Index
+## Repository Structure
+
+```
+Cybersecurity-Awareness-Analytics/
+│
+├── 01_project_architecture/     # Star schema diagram & system design
+├── 02_project_documents/        # Requirements & planning documentation
+├── 03_simulated_dataset/        # Synthetic CSV datasets
+├── 04_sql_scripts/              # Schema creation, loading & analytical queries
+├── 05_analysis_results/         # Query outputs & insight summaries
+└── README.md
+```
+
+---
+
+## Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| SQL Server | Data warehouse design, schema implementation, T-SQL querying |
+| Power BI | Interactive dashboard |
+| Python / ChatGPT | Synthetic dataset generation |
+| Git / GitHub | Version control and project management |
+
+---
+
+## Business Value
+
+This platform demonstrates how organisations can use data to:
+
+- Detect high-risk users and departments before incidents occur
+- Measure whether cybersecurity training is actually working
+- Reduce human-related security incidents through targeted intervention
+- Move from reactive to data-driven security decision-making
+
+---
+
+## Author
+
+**Hlekane Ngobeni**  
+Aspiring Data Engineer · Data Analyst · BI Enthusiast  
+Building data-driven systems.
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?logo=github)](https://github.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://linkedin.com/)
