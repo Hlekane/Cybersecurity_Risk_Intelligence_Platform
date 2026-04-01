@@ -1,0 +1,101 @@
+Event_TypeID,Event_Name,Event_Category,Row_3
+1,Training Completed v3,Authentication,Priority
+2,Account Lockout - Tracked,Access,Standard
+3,Account Lockout v1,Compliance,Monitored
+4,Privileged Access v3,Access,Escalated
+5,Failed Login - Tracked,Access,Priority
+6,Policy Acknowledgement v1,Incident,Escalated
+7,Phishing Reported - Tracked,Incident,Standard
+8,Login - Tracked,Compliance,Monitored
+9,Quiz Attempt v1,Compliance,Monitored
+10,Failed Login v1,Phishing,Escalated
+11,Training Completed v1,Training,Flagged
+12,Policy Acknowledgement - Manual,Access,Escalated
+13,Account Lockout v3,Compliance,Escalated
+14,VPN Connection v3,Compliance,Escalated
+15,Policy Acknowledgement - Tracked,Authentication,Standard
+16,Data Export - Manual,Incident,Escalated
+17,Account Lockout v2,Compliance,Monitored
+18,Suspicious Activity v2,Compliance,Flagged
+19,Data Export - Tracked,Compliance,Monitored
+20,Account Lockout v1,Phishing,Monitored
+21,Password Reset - Manual,Phishing,Flagged
+22,Training Completed - Manual,Compliance,Standard
+23,Failed Login v1,Authentication,Monitored
+24,Failed Login - Manual,Incident,Flagged
+25,Privileged Access v2,Access,Standard
+26,Policy Acknowledgement - Auto,Access,Flagged
+27,Quiz Attempt v1,Compliance,Flagged
+28,Data Export - Manual,Compliance,Standard
+29,Phishing Reported - Auto,Phishing,Flagged
+30,Failed Login - Auto,Access,Priority
+31,Training Completed - Manual,Compliance,Priority
+32,Data Export v1,Phishing,Escalated
+33,Password Reset v1,Phishing,Escalated
+34,Phishing Click - Tracked,Access,Escalated
+35,Policy Acknowledgement - Manual,Incident,Escalated
+36,Login - Auto,Incident,Flagged
+37,Login v2,Phishing,Flagged
+38,Suspicious Activity v3,Phishing,Standard
+39,Training Completed v2,Access,Monitored
+40,Failed Login v2,Incident,Standard
+41,Failed Login - Manual,Access,Priority
+42,File Download - Tracked,Compliance,Flagged
+43,Training Completed v3,Phishing,Flagged
+44,Privileged Access - Auto,Access,Standard
+45,Suspicious Activity v1,Training,Priority
+46,Privileged Access - Auto,Authentication,Standard
+47,Phishing Reported - Tracked,Incident,Monitored
+48,USB Insertion - Auto,Compliance,Monitored
+49,Phishing Reported v2,Access,Standard
+50,Password Reset - Tracked,Authentication,Flagged
+51,Quiz Attempt - Manual,Access,Monitored
+52,VPN Connection - Manual,Phishing,Standard
+53,Phishing Click - Tracked,Access,Standard
+54,Login v2,Phishing,Priority
+55,Privileged Access v2,Phishing,Flagged
+56,Password Reset v1,Authentication,Monitored
+57,Account Lockout - Tracked,Training,Priority
+58,File Download - Auto,Incident,Priority
+59,VPN Connection - Auto,Incident,Flagged
+60,Failed Login - Tracked,Incident,Standard
+61,File Download v1,Compliance,Standard
+62,Data Export v3,Access,Monitored
+63,Policy Acknowledgement - Tracked,Incident,Monitored
+64,Phishing Reported v1,Compliance,Standard
+65,Password Reset v2,Access,Monitored
+66,Data Export - Manual,Phishing,Standard
+67,File Download v1,Training,Monitored
+68,Policy Acknowledgement - Tracked,Access,Standard
+69,File Download v3,Incident,Flagged
+70,Phishing Click v3,Training,Standard
+71,VPN Connection - Manual,Authentication,Escalated
+72,VPN Connection v2,Phishing,Flagged
+73,Account Lockout - Manual,Training,Priority
+74,Failed Login v2,Phishing,Priority
+75,Training Completed - Auto,Training,Standard
+76,Training Completed - Manual,Compliance,Monitored
+77,Privileged Access - Auto,Access,Monitored
+78,Quiz Attempt - Auto,Incident,Escalated
+79,Password Reset - Manual,Phishing,Priority
+80,USB Insertion v1,Compliance,Monitored
+81,Quiz Attempt v3,Phishing,Escalated
+82,Login v3,Access,Standard
+83,Phishing Reported - Tracked,Compliance,Standard
+84,Login v3,Phishing,Standard
+85,Quiz Attempt v1,Access,Escalated
+86,VPN Connection - Tracked,Compliance,Escalated
+87,VPN Connection - Manual,Authentication,Monitored
+88,Suspicious Activity - Auto,Incident,Priority
+89,Password Reset - Auto,Compliance,Escalated
+90,Training Completed v1,Compliance,Standard
+91,Privileged Access v3,Incident,Standard
+92,VPN Connection - Manual,Training,Standard
+93,Phishing Click - Manual,Compliance,Monitored
+94,VPN Connection - Auto,Access,Priority
+95,Password Reset v3,Phishing,Monitored
+96,File Download v3,Incident,Escalated
+97,Login - Manual,Incident,Flagged
+98,Failed Login v3,Authentication,Escalated
+99,Quiz Attempt - Tracked,Phishing,Flagged
+100,Account Lockout - Manual,Access,Priority

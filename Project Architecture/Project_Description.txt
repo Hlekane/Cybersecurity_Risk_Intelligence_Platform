@@ -1,0 +1,33 @@
+Cybersecurity Awareness & Risk Analytics Platform
+
+Project Description:
+
+This project focuses on designing and implementing a basic data
+warehouse to analyze cybersecurity awareness within an organization.
+
+The goal is to track user activities such as logins, training
+completion, and phishing interactions in order to better understand user
+behavior and identify potential risks.
+
+The system is built using a star schema design, consisting of one
+central fact table (Fact_User_Cyber_Event) and several dimension tables
+including Dim_User, Dim_Date, Dim_Event_Type, Dim_Module, and
+Dim_Threat.
+
+Key objectives of the project include: - Monitoring
+cybersecurity-related user events - Measuring training effectiveness -
+Supporting basic data analysis using SQL
+
+The project uses SQL Server Management Studio (SSMS) for database
+creation and management. Data is generated using SQL INSERT statements
+or CSV files to simulate real-world scenarios.
+
+This project demonstrates foundational skills in: - Data modelling (star
+schema) - SQL (DDL, DML, and queries) - Basic data analysis
+
+The output of the project includes structured data that can be queried
+to produce insights and optionally visualized using tools like Tableau.
+
+Note: This project does not include advanced data engineering concepts
+such as ETL pipelines, cloud platforms, or automation, as it focuses on
+building strong fundamentals.

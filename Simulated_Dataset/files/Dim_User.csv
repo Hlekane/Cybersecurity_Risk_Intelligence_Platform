@@ -1,0 +1,121 @@
+UserID,User_Name,Email,Department,Role,Location,Employment_Type,Join_Date,Status
+1,Ayanda Dlamini,ayanda.dlamini1@company.co.za,Operations,Specialist,Durban,Part-Time,2022-02-17,Active
+2,David Mokoena,david.mokoena2@company.co.za,Compliance,Consultant,Pretoria,Full-Time,2018-07-11,Active
+3,Thandeka Hadebe,thandeka.hadebe3@company.co.za,Compliance,Analyst,East London,Part-Time,2022-01-06,On Leave
+4,David Molefi,david.molefi4@company.co.za,Marketing,Administrator,Kimberley,Contractor,2022-07-16,Active
+5,Naledi Williams,naledi.williams5@company.co.za,Sales,Coordinator,Port Elizabeth,Part-Time,2019-03-17,Active
+6,Bongani Mokoena,bongani.mokoena6@company.co.za,Sales,Manager,Bloemfontein,Contractor,2021-05-21,Active
+7,Sipho Brown,sipho.brown7@company.co.za,Engineering,Developer,Johannesburg,Intern,2018-06-11,Inactive
+8,Palesa Wilson,palesa.wilson8@company.co.za,Compliance,Coordinator,Kimberley,Part-Time,2021-12-13,Active
+9,Sipho Jones,sipho.jones9@company.co.za,Marketing,Director,Johannesburg,Part-Time,2022-11-10,Active
+10,Gugu Khumalo,gugu.khumalo10@company.co.za,Engineering,Coordinator,Cape Town,Contractor,2019-12-29,Active
+11,Lwazi Williams,lwazi.williams11@company.co.za,HR,Advisor,Cape Town,Part-Time,2018-12-01,Active
+12,Gugu Khumalo,gugu.khumalo12@company.co.za,Procurement,Specialist,Bloemfontein,Full-Time,2019-04-15,Active
+13,Nkosi Sekhoto,nkosi.sekhoto13@company.co.za,Operations,Manager,Durban,Contractor,2019-03-12,On Leave
+14,Sarah Sekhoto,sarah.sekhoto14@company.co.za,Engineering,Engineer,Port Elizabeth,Part-Time,2019-05-21,On Leave
+15,Lisa Gumede,lisa.gumede15@company.co.za,Operations,Advisor,Nelspruit,Intern,2020-01-12,Active
+16,Siyanda Hadebe,siyanda.hadebe16@company.co.za,Engineering,Manager,Pretoria,Full-Time,2018-11-10,On Leave
+17,Naledi Miller,naledi.miller17@company.co.za,Sales,Advisor,Johannesburg,Intern,2020-02-21,Inactive
+18,Ntombi Hadebe,ntombi.hadebe18@company.co.za,Operations,Developer,Pretoria,Full-Time,2021-10-28,Inactive
+19,Lwazi Davis,lwazi.davis19@company.co.za,Legal,Manager,Port Elizabeth,Intern,2018-11-20,Active
+20,Thabo Brown,thabo.brown20@company.co.za,Operations,Developer,Cape Town,Full-Time,2022-11-18,On Leave
+21,Sibusiso Wilson,sibusiso.wilson21@company.co.za,Procurement,Advisor,Durban,Part-Time,2020-02-05,Active
+22,David Davis,david.davis22@company.co.za,Procurement,Analyst,Kimberley,Contractor,2020-09-27,Active
+23,Ayanda Anderson,ayanda.anderson23@company.co.za,Legal,Director,Durban,Full-Time,2019-05-09,Inactive
+24,Zanele Mokoena,zanele.mokoena24@company.co.za,Engineering,Manager,East London,Part-Time,2018-09-20,On Leave
+25,James Gumede,james.gumede25@company.co.za,Finance,Director,East London,Intern,2023-05-30,Active
+26,David Davis,david.davis26@company.co.za,Marketing,Director,Nelspruit,Contractor,2020-06-16,Inactive
+27,Khosi Sithole,khosi.sithole27@company.co.za,Marketing,Specialist,Johannesburg,Contractor,2018-02-13,Inactive
+28,Lisa Mkhize,lisa.mkhize28@company.co.za,Compliance,Specialist,Pretoria,Full-Time,2021-12-20,On Leave
+29,Nomsa Mkhize,nomsa.mkhize29@company.co.za,HR,Analyst,Bloemfontein,Full-Time,2020-11-18,Active
+30,Lwazi Jones,lwazi.jones30@company.co.za,Engineering,Specialist,East London,Part-Time,2022-01-21,Inactive
+31,Robert Cele,robert.cele31@company.co.za,Marketing,Administrator,Nelspruit,Part-Time,2018-07-13,Active
+32,Sanele Tau,sanele.tau32@company.co.za,Sales,Consultant,Polokwane,Full-Time,2021-10-11,On Leave
+33,Bongani Nkosi,bongani.nkosi33@company.co.za,Sales,Coordinator,Johannesburg,Part-Time,2019-01-28,Active
+34,David Vilakazi,david.vilakazi34@company.co.za,Finance,Consultant,Cape Town,Contractor,2020-08-05,Active
+35,Kagiso Vilakazi,kagiso.vilakazi35@company.co.za,Procurement,Manager,Pretoria,Full-Time,2023-06-08,Active
+36,Sifiso Zulu,sifiso.zulu36@company.co.za,Sales,Administrator,Polokwane,Part-Time,2022-11-06,Active
+37,Nomsa Zulu,nomsa.zulu37@company.co.za,Sales,Analyst,Nelspruit,Contractor,2023-03-13,Active
+38,Palesa Molefi,palesa.molefi38@company.co.za,Procurement,Administrator,Cape Town,Part-Time,2019-08-31,Active
+39,Nomsa Luthuli,nomsa.luthuli39@company.co.za,Procurement,Analyst,Bloemfontein,Full-Time,2018-04-13,Inactive
+40,James Hadebe,james.hadebe40@company.co.za,Procurement,Engineer,Pretoria,Full-Time,2022-10-10,Active
+41,Kagiso Majola,kagiso.majola41@company.co.za,HR,Specialist,Nelspruit,Full-Time,2023-04-13,Inactive
+42,Sifiso Luthuli,sifiso.luthuli42@company.co.za,Compliance,Analyst,Kimberley,Full-Time,2020-05-08,On Leave
+43,Maria Luthuli,maria.luthuli43@company.co.za,Procurement,Coordinator,Port Elizabeth,Part-Time,2021-10-03,On Leave
+44,Nkosi Mkhize,nkosi.mkhize44@company.co.za,Operations,Consultant,Cape Town,Contractor,2020-07-25,Active
+45,Kagiso Dlamini,kagiso.dlamini45@company.co.za,Engineering,Advisor,Kimberley,Full-Time,2018-05-31,Inactive
+46,Lungelo Hadebe,lungelo.hadebe46@company.co.za,Operations,Engineer,Bloemfontein,Full-Time,2022-12-06,Active
+47,Tumi Nxumalo,tumi.nxumalo47@company.co.za,Finance,Administrator,East London,Contractor,2021-06-06,On Leave
+48,Emma Dlamini,emma.dlamini48@company.co.za,Procurement,Director,Johannesburg,Part-Time,2019-06-26,Active
+49,Bongani Brown,bongani.brown49@company.co.za,Procurement,Engineer,Port Elizabeth,Contractor,2021-05-23,Active
+50,Zanele Ndlovu,zanele.ndlovu50@company.co.za,Operations,Developer,Polokwane,Contractor,2023-01-29,Active
+51,Zanele Smith,zanele.smith51@company.co.za,Sales,Director,Pretoria,Full-Time,2019-11-15,Active
+52,Nokwanda Zulu,nokwanda.zulu52@company.co.za,Engineering,Developer,Nelspruit,Full-Time,2018-08-18,Active
+53,Mpho Gumede,mpho.gumede53@company.co.za,IT,Coordinator,Kimberley,Part-Time,2020-05-30,Active
+54,Sipho Nxumalo,sipho.nxumalo54@company.co.za,Legal,Analyst,Bloemfontein,Part-Time,2021-10-28,Active
+55,Bongani Tau,bongani.tau55@company.co.za,Procurement,Consultant,Kimberley,Part-Time,2023-03-11,Active
+56,Naledi Miller,naledi.miller56@company.co.za,Finance,Consultant,Pretoria,Part-Time,2022-02-17,Active
+57,Nolwazi Miller,nolwazi.miller57@company.co.za,Marketing,Director,Cape Town,Full-Time,2020-02-23,Active
+58,James Mkhize,james.mkhize58@company.co.za,Marketing,Administrator,Bloemfontein,Contractor,2022-08-08,Active
+59,Thandeka Dlamini,thandeka.dlamini59@company.co.za,Marketing,Consultant,Bloemfontein,Contractor,2022-11-06,Active
+60,Lwazi Tau,lwazi.tau60@company.co.za,Procurement,Consultant,East London,Contractor,2023-04-08,Active
+61,Ayanda Taylor,ayanda.taylor61@company.co.za,Operations,Engineer,Kimberley,Contractor,2018-03-20,Active
+62,John Molefi,john.molefi62@company.co.za,Legal,Coordinator,Nelspruit,Full-Time,2020-02-28,Inactive
+63,Refilwe Khumalo,refilwe.khumalo63@company.co.za,IT,Consultant,Pretoria,Part-Time,2020-01-16,Active
+64,Kagiso Jones,kagiso.jones64@company.co.za,Legal,Advisor,Bloemfontein,Full-Time,2022-01-14,Active
+65,Michael Nxumalo,michael.nxumalo65@company.co.za,Sales,Coordinator,Nelspruit,Contractor,2021-02-09,Active
+66,Refilwe Molefi,refilwe.molefi66@company.co.za,Sales,Engineer,Kimberley,Contractor,2020-04-11,Inactive
+67,Thabo Nxumalo,thabo.nxumalo67@company.co.za,Operations,Specialist,Nelspruit,Contractor,2020-08-10,Active
+68,Khosi Jones,khosi.jones68@company.co.za,Marketing,Developer,Polokwane,Part-Time,2021-09-11,Active
+69,Palesa Hadebe,palesa.hadebe69@company.co.za,Compliance,Coordinator,Johannesburg,Part-Time,2021-10-09,Active
+70,Thandeka Miller,thandeka.miller70@company.co.za,Marketing,Engineer,Pretoria,Full-Time,2019-05-17,Active
+71,Patricia Moore,patricia.moore71@company.co.za,HR,Administrator,Nelspruit,Part-Time,2022-01-11,On Leave
+72,Gugu Cele,gugu.cele72@company.co.za,Sales,Specialist,Cape Town,Full-Time,2023-01-03,Active
+73,Sanele Mkhize,sanele.mkhize73@company.co.za,Finance,Developer,Polokwane,Full-Time,2021-02-15,Active
+74,Ayanda Vilakazi,ayanda.vilakazi74@company.co.za,Finance,Administrator,East London,Contractor,2023-04-30,Active
+75,Patricia Wilson,patricia.wilson75@company.co.za,Procurement,Consultant,East London,Intern,2023-01-12,Active
+76,James Vilakazi,james.vilakazi76@company.co.za,Operations,Specialist,Port Elizabeth,Intern,2021-07-07,Active
+77,Lwazi Vilakazi,lwazi.vilakazi77@company.co.za,HR,Director,Durban,Contractor,2019-11-19,Active
+78,David Mokoena,david.mokoena78@company.co.za,Finance,Engineer,Durban,Intern,2021-11-22,Active
+79,Lungelo Mokoena,lungelo.mokoena79@company.co.za,Sales,Consultant,Bloemfontein,Intern,2020-05-01,Active
+80,Lungelo Wilson,lungelo.wilson80@company.co.za,Sales,Consultant,Kimberley,Full-Time,2022-10-21,Inactive
+81,Gugu Cele,gugu.cele81@company.co.za,IT,Coordinator,Port Elizabeth,Intern,2022-10-14,Active
+82,David Brown,david.brown82@company.co.za,Procurement,Advisor,Durban,Intern,2019-03-26,Active
+83,Sanele Cele,sanele.cele83@company.co.za,IT,Consultant,Bloemfontein,Intern,2022-01-23,Active
+84,Ntombi Anderson,ntombi.anderson84@company.co.za,Finance,Advisor,East London,Full-Time,2023-02-01,Active
+85,Maria Luthuli,maria.luthuli85@company.co.za,IT,Manager,Nelspruit,Part-Time,2022-11-11,Active
+86,Tshepo Nkosi,tshepo.nkosi86@company.co.za,Operations,Consultant,Bloemfontein,Part-Time,2020-07-20,Active
+87,Zanele Davis,zanele.davis87@company.co.za,Sales,Director,Nelspruit,Contractor,2022-09-06,Active
+88,James Dlamini,james.dlamini88@company.co.za,Procurement,Analyst,Bloemfontein,Part-Time,2021-08-24,Active
+89,Sipho Davis,sipho.davis89@company.co.za,IT,Specialist,Durban,Full-Time,2021-06-26,Active
+90,Sifiso Mthembu,sifiso.mthembu90@company.co.za,Engineering,Manager,Kimberley,Part-Time,2020-08-10,On Leave
+91,Nokwanda Davis,nokwanda.davis91@company.co.za,Legal,Engineer,Kimberley,Full-Time,2022-05-12,Active
+92,Sibusiso Sithole,sibusiso.sithole92@company.co.za,Compliance,Analyst,Port Elizabeth,Intern,2020-03-23,On Leave
+93,Refilwe Mokoena,refilwe.mokoena93@company.co.za,Compliance,Specialist,Johannesburg,Contractor,2022-10-08,On Leave
+94,John Miller,john.miller94@company.co.za,HR,Advisor,Pretoria,Contractor,2020-12-27,Active
+95,Tumi Mokoena,tumi.mokoena95@company.co.za,Procurement,Coordinator,Pretoria,Intern,2022-08-12,Active
+96,Bongani Molefi,bongani.molefi96@company.co.za,Legal,Administrator,Cape Town,Intern,2018-12-27,On Leave
+97,Emma Smith,emma.smith97@company.co.za,Operations,Advisor,East London,Intern,2020-08-10,Active
+98,Maria Khumalo,maria.khumalo98@company.co.za,Legal,Specialist,Johannesburg,Contractor,2022-12-11,Active
+99,Sifiso Davis,sifiso.davis99@company.co.za,Engineering,Advisor,Kimberley,Intern,2019-11-20,Active
+100,Sarah Moore,sarah.moore100@company.co.za,Legal,Engineer,Polokwane,Part-Time,2019-12-28,Active
+101,Zanele Khumalo,zanele.khumalo101@company.co.za,Compliance,Director,East London,Full-Time,2020-11-24,Active
+102,Zanele Mkhize,zanele.mkhize102@company.co.za,Sales,Administrator,East London,Part-Time,2021-11-15,Active
+103,Sarah Vilakazi,sarah.vilakazi103@company.co.za,IT,Manager,Port Elizabeth,Part-Time,2020-04-08,On Leave
+104,Sifiso Nxumalo,sifiso.nxumalo104@company.co.za,Compliance,Coordinator,Polokwane,Contractor,2020-05-21,On Leave
+105,Lisa Molefe,lisa.molefe105@company.co.za,Legal,Administrator,Port Elizabeth,Contractor,2019-05-30,Active
+106,Ayanda Brown,ayanda.brown106@company.co.za,Marketing,Coordinator,Johannesburg,Part-Time,2019-01-28,Active
+107,James Khumalo,james.khumalo107@company.co.za,Compliance,Developer,Kimberley,Contractor,2018-07-25,Active
+108,Palesa Mkhize,palesa.mkhize108@company.co.za,Legal,Engineer,Port Elizabeth,Full-Time,2021-12-21,Inactive
+109,Siyanda Khumalo,siyanda.khumalo109@company.co.za,IT,Analyst,East London,Contractor,2021-11-29,Active
+110,Sarah Sithole,sarah.sithole110@company.co.za,IT,Advisor,Port Elizabeth,Intern,2020-09-07,Active
+111,Zanele Zulu,zanele.zulu111@company.co.za,IT,Director,Polokwane,Full-Time,2022-08-11,Active
+112,Mandla Cele,mandla.cele112@company.co.za,HR,Advisor,Pretoria,Part-Time,2018-11-02,Inactive
+113,Sibusiso Mokoena,sibusiso.mokoena113@company.co.za,Marketing,Manager,East London,Intern,2021-05-26,Inactive
+114,Patricia Mkhize,patricia.mkhize114@company.co.za,Procurement,Consultant,Polokwane,Intern,2019-09-01,Inactive
+115,Sanele Nxumalo,sanele.nxumalo115@company.co.za,Compliance,Advisor,Pretoria,Full-Time,2023-04-25,Active
+116,Lungelo Khumalo,lungelo.khumalo116@company.co.za,HR,Engineer,Durban,Part-Time,2021-02-04,Active
+117,Naledi Dlamini,naledi.dlamini117@company.co.za,Sales,Administrator,Kimberley,Intern,2019-08-20,Active
+118,Thandeka Nxumalo,thandeka.nxumalo118@company.co.za,Operations,Administrator,Johannesburg,Part-Time,2023-03-08,Active
+119,Maria Jones,maria.jones119@company.co.za,Marketing,Consultant,Johannesburg,Part-Time,2021-08-19,Active
+120,Lwazi Wilson,lwazi.wilson120@company.co.za,Finance,Manager,Pretoria,Part-Time,2022-06-12,Active

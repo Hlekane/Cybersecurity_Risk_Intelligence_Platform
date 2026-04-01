@@ -1,0 +1,101 @@
+TrainingID,Module_Name,Category,Difficulty_Level,Duration_Minutes
+1,Access Control Refresher,Behavioral,Intermediate,30
+2,Password Security Essentials,Technical,Advanced,30
+3,Incident Reporting Advanced,Behavioral,Intermediate,30
+4,Password Security Advanced,Awareness,Intermediate,60
+5,Secure Browsing Advanced,Technical,Beginner,15
+6,Social Engineering Refresher,Behavioral,Advanced,15
+7,Physical Security Refresher,Technical,Advanced,15
+8,Physical Security 201,Policy,Advanced,60
+9,Mobile Device Security 301,Compliance,Advanced,30
+10,Ransomware Awareness Essentials,Awareness,Intermediate,25
+11,Email Safety 301,Technical,Advanced,15
+12,Insider Threat Awareness 201,Technical,Intermediate,60
+13,Mobile Device Security 301,Policy,Advanced,15
+14,Mobile Device Security 101,Technical,Intermediate,25
+15,Password Security Essentials,Behavioral,Beginner,60
+16,Insider Threat Awareness Advanced,Policy,Intermediate,15
+17,Social Engineering Advanced,Technical,Advanced,90
+18,Mobile Device Security Refresher,Policy,Beginner,20
+19,Incident Reporting Advanced,Compliance,Intermediate,30
+20,Zero Trust Fundamentals Refresher,Policy,Beginner,15
+21,Ransomware Awareness Advanced,Compliance,Advanced,20
+22,Incident Reporting Advanced,Awareness,Advanced,30
+23,Password Security 201,Awareness,Intermediate,15
+24,Ransomware Awareness 201,Policy,Advanced,25
+25,Cloud Security Basics Refresher,Technical,Intermediate,90
+26,Mobile Device Security Essentials,Compliance,Intermediate,45
+27,Data Privacy Essentials,Compliance,Advanced,45
+28,VPN Usage 201,Awareness,Intermediate,90
+29,Physical Security Essentials,Technical,Advanced,25
+30,Insider Threat Awareness 101,Technical,Advanced,25
+31,Insider Threat Awareness Advanced,Behavioral,Advanced,30
+32,Insider Threat Awareness 201,Policy,Advanced,30
+33,Secure Browsing 301,Behavioral,Advanced,30
+34,Mobile Device Security 301,Compliance,Advanced,20
+35,Access Control Essentials,Compliance,Intermediate,15
+36,Secure Browsing Refresher,Policy,Advanced,90
+37,Email Safety Essentials,Compliance,Intermediate,15
+38,Data Privacy Advanced,Behavioral,Intermediate,90
+39,Password Security Essentials,Awareness,Advanced,30
+40,Phishing Awareness Refresher,Compliance,Intermediate,90
+41,Ransomware Awareness 201,Awareness,Intermediate,90
+42,Incident Reporting 301,Behavioral,Advanced,30
+43,Ransomware Awareness 101,Technical,Advanced,90
+44,Cloud Security Basics Essentials,Technical,Advanced,60
+45,Zero Trust Fundamentals Essentials,Behavioral,Beginner,45
+46,Password Security 201,Technical,Beginner,60
+47,Password Security Essentials,Awareness,Advanced,60
+48,Insider Threat Awareness 101,Policy,Beginner,60
+49,Incident Reporting 101,Awareness,Intermediate,90
+50,Phishing Awareness 301,Technical,Intermediate,30
+51,Data Privacy 201,Behavioral,Intermediate,45
+52,Ransomware Awareness 201,Compliance,Beginner,15
+53,Access Control Essentials,Behavioral,Advanced,20
+54,Mobile Device Security Advanced,Compliance,Beginner,30
+55,Ransomware Awareness 301,Policy,Intermediate,60
+56,Phishing Awareness Essentials,Technical,Advanced,45
+57,Data Privacy 101,Policy,Intermediate,45
+58,Incident Reporting Refresher,Policy,Advanced,25
+59,Mobile Device Security 301,Compliance,Intermediate,90
+60,Mobile Device Security 101,Compliance,Intermediate,45
+61,Secure Browsing Advanced,Technical,Advanced,25
+62,Phishing Awareness Refresher,Policy,Intermediate,15
+63,Access Control Refresher,Awareness,Advanced,60
+64,Mobile Device Security 301,Compliance,Advanced,90
+65,Secure Browsing 201,Compliance,Advanced,25
+66,Ransomware Awareness Refresher,Compliance,Advanced,15
+67,Zero Trust Fundamentals Refresher,Awareness,Intermediate,90
+68,Mobile Device Security 101,Behavioral,Intermediate,60
+69,Data Privacy 101,Technical,Intermediate,60
+70,Email Safety 201,Compliance,Beginner,90
+71,Cloud Security Basics 301,Behavioral,Advanced,25
+72,Insider Threat Awareness 201,Technical,Intermediate,90
+73,Incident Reporting Refresher,Technical,Beginner,30
+74,Password Security 201,Compliance,Advanced,60
+75,Ransomware Awareness Essentials,Behavioral,Intermediate,15
+76,Physical Security Essentials,Awareness,Intermediate,45
+77,Password Security Essentials,Technical,Advanced,60
+78,Ransomware Awareness 301,Behavioral,Intermediate,90
+79,Ransomware Awareness 301,Awareness,Advanced,20
+80,Mobile Device Security 101,Behavioral,Advanced,25
+81,Zero Trust Fundamentals Advanced,Compliance,Advanced,15
+82,Ransomware Awareness Essentials,Technical,Advanced,30
+83,Password Security 201,Awareness,Beginner,25
+84,Mobile Device Security 101,Awareness,Beginner,45
+85,Data Privacy Essentials,Policy,Intermediate,60
+86,VPN Usage Refresher,Behavioral,Intermediate,45
+87,VPN Usage Refresher,Compliance,Intermediate,60
+88,Password Security Essentials,Behavioral,Intermediate,25
+89,Phishing Awareness Refresher,Technical,Beginner,30
+90,Mobile Device Security 201,Technical,Beginner,60
+91,Secure Browsing Advanced,Technical,Beginner,30
+92,Incident Reporting 201,Awareness,Intermediate,15
+93,Ransomware Awareness 201,Behavioral,Beginner,15
+94,Physical Security 301,Compliance,Beginner,90
+95,Access Control 201,Awareness,Advanced,20
+96,Access Control 201,Compliance,Intermediate,90
+97,Data Privacy Advanced,Awareness,Intermediate,90
+98,Data Privacy 201,Behavioral,Intermediate,90
+99,Data Privacy 101,Awareness,Beginner,15
+100,Secure Browsing 201,Behavioral,Intermediate,15

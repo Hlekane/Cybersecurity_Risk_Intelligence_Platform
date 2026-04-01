@@ -1,0 +1,101 @@
+ThreatID,Threat_Type,Severity,Description
+1,Phishing,High,Attempt to steal credentials via deceptive emails.
+2,Ransomware,Low,Malicious software encrypting files for ransom.
+3,Malware,Medium,Unauthorized software causing damage or disruption.
+4,Social Engineering,High,Manipulating individuals into revealing confidential info.
+5,Insider Threat,High,Threat originating from within the organization.
+6,Brute Force,Critical,Repeated login attempts to guess passwords.
+7,DDoS,Medium,Overwhelming system resources to cause downtime.
+8,Man-in-the-Middle,Low,Intercepting communications between two parties.
+9,SQL Injection,High,Injecting malicious SQL queries into input fields.
+10,Zero-Day Exploit,Critical,Exploiting unknown software vulnerability.
+11,Credential Theft,High,Stealing authentication credentials for unauthorized access.
+12,Data Exfiltration,Medium,Unauthorized transfer of sensitive data outside the org.
+13,Spear Phishing,Low,Targeted phishing aimed at specific individuals.
+14,Vishing,Critical,Voice-based phishing using phone calls.
+15,Smishing,High,SMS-based phishing targeting mobile users.
+16,Phishing,Low,Attempt to steal credentials via deceptive emails.
+17,Ransomware,High,Malicious software encrypting files for ransom.
+18,Malware,High,Unauthorized software causing damage or disruption.
+19,Social Engineering,Medium,Manipulating individuals into revealing confidential info.
+20,Insider Threat,Medium,Threat originating from within the organization.
+21,Brute Force,High,Repeated login attempts to guess passwords.
+22,DDoS,Critical,Overwhelming system resources to cause downtime.
+23,Man-in-the-Middle,Medium,Intercepting communications between two parties.
+24,SQL Injection,Medium,Injecting malicious SQL queries into input fields.
+25,Zero-Day Exploit,Medium,Exploiting unknown software vulnerability.
+26,Credential Theft,Medium,Stealing authentication credentials for unauthorized access.
+27,Data Exfiltration,Low,Unauthorized transfer of sensitive data outside the org.
+28,Spear Phishing,High,Targeted phishing aimed at specific individuals.
+29,Vishing,Low,Voice-based phishing using phone calls.
+30,Smishing,Low,SMS-based phishing targeting mobile users.
+31,Phishing,High,Attempt to steal credentials via deceptive emails.
+32,Ransomware,Medium,Malicious software encrypting files for ransom.
+33,Malware,Critical,Unauthorized software causing damage or disruption.
+34,Social Engineering,Medium,Manipulating individuals into revealing confidential info.
+35,Insider Threat,Medium,Threat originating from within the organization.
+36,Brute Force,Medium,Repeated login attempts to guess passwords.
+37,DDoS,Medium,Overwhelming system resources to cause downtime.
+38,Man-in-the-Middle,Critical,Intercepting communications between two parties.
+39,SQL Injection,Low,Injecting malicious SQL queries into input fields.
+40,Zero-Day Exploit,Critical,Exploiting unknown software vulnerability.
+41,Credential Theft,High,Stealing authentication credentials for unauthorized access.
+42,Data Exfiltration,Medium,Unauthorized transfer of sensitive data outside the org.
+43,Spear Phishing,Critical,Targeted phishing aimed at specific individuals.
+44,Vishing,High,Voice-based phishing using phone calls.
+45,Smishing,Critical,SMS-based phishing targeting mobile users.
+46,Phishing,Medium,Attempt to steal credentials via deceptive emails.
+47,Ransomware,Medium,Malicious software encrypting files for ransom.
+48,Malware,High,Unauthorized software causing damage or disruption.
+49,Social Engineering,Critical,Manipulating individuals into revealing confidential info.
+50,Insider Threat,Medium,Threat originating from within the organization.
+51,Brute Force,High,Repeated login attempts to guess passwords.
+52,DDoS,Critical,Overwhelming system resources to cause downtime.
+53,Man-in-the-Middle,Critical,Intercepting communications between two parties.
+54,SQL Injection,High,Injecting malicious SQL queries into input fields.
+55,Zero-Day Exploit,Critical,Exploiting unknown software vulnerability.
+56,Credential Theft,Critical,Stealing authentication credentials for unauthorized access.
+57,Data Exfiltration,Medium,Unauthorized transfer of sensitive data outside the org.
+58,Spear Phishing,Medium,Targeted phishing aimed at specific individuals.
+59,Vishing,Medium,Voice-based phishing using phone calls.
+60,Smishing,High,SMS-based phishing targeting mobile users.
+61,Phishing,Low,Attempt to steal credentials via deceptive emails.
+62,Ransomware,Critical,Malicious software encrypting files for ransom.
+63,Malware,High,Unauthorized software causing damage or disruption.
+64,Social Engineering,Low,Manipulating individuals into revealing confidential info.
+65,Insider Threat,Low,Threat originating from within the organization.
+66,Brute Force,High,Repeated login attempts to guess passwords.
+67,DDoS,Low,Overwhelming system resources to cause downtime.
+68,Man-in-the-Middle,Medium,Intercepting communications between two parties.
+69,SQL Injection,High,Injecting malicious SQL queries into input fields.
+70,Zero-Day Exploit,Critical,Exploiting unknown software vulnerability.
+71,Credential Theft,Medium,Stealing authentication credentials for unauthorized access.
+72,Data Exfiltration,Critical,Unauthorized transfer of sensitive data outside the org.
+73,Spear Phishing,Low,Targeted phishing aimed at specific individuals.
+74,Vishing,Medium,Voice-based phishing using phone calls.
+75,Smishing,Critical,SMS-based phishing targeting mobile users.
+76,Phishing,High,Attempt to steal credentials via deceptive emails.
+77,Ransomware,Low,Malicious software encrypting files for ransom.
+78,Malware,Critical,Unauthorized software causing damage or disruption.
+79,Social Engineering,Low,Manipulating individuals into revealing confidential info.
+80,Insider Threat,Critical,Threat originating from within the organization.
+81,Brute Force,High,Repeated login attempts to guess passwords.
+82,DDoS,Medium,Overwhelming system resources to cause downtime.
+83,Man-in-the-Middle,Critical,Intercepting communications between two parties.
+84,SQL Injection,Low,Injecting malicious SQL queries into input fields.
+85,Zero-Day Exploit,High,Exploiting unknown software vulnerability.
+86,Credential Theft,Medium,Stealing authentication credentials for unauthorized access.
+87,Data Exfiltration,Low,Unauthorized transfer of sensitive data outside the org.
+88,Spear Phishing,High,Targeted phishing aimed at specific individuals.
+89,Vishing,Low,Voice-based phishing using phone calls.
+90,Smishing,High,SMS-based phishing targeting mobile users.
+91,Phishing,Medium,Attempt to steal credentials via deceptive emails.
+92,Ransomware,Medium,Malicious software encrypting files for ransom.
+93,Malware,Low,Unauthorized software causing damage or disruption.
+94,Social Engineering,High,Manipulating individuals into revealing confidential info.
+95,Insider Threat,Critical,Threat originating from within the organization.
+96,Brute Force,Medium,Repeated login attempts to guess passwords.
+97,DDoS,Critical,Overwhelming system resources to cause downtime.
+98,Man-in-the-Middle,Critical,Intercepting communications between two parties.
+99,SQL Injection,Low,Injecting malicious SQL queries into input fields.
+100,Zero-Day Exploit,Low,Exploiting unknown software vulnerability.
