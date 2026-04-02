@@ -1,18 +1,16 @@
-/*Departments most active in cybersecurity events*/
-/* shows which departments generate the highest number of cybersecurity events overall, highlighting
-where activity is concentrated.*/
+/* Departments most active in cybersecurity events */
+/* Shows which departments generate the highest number of cybersecurity events overall. */
 
 SELECT 
-	u.Department, COUNT(f.EventID) AS Event_Count 
+    u.Department, COUNT(f.EventID) AS Event_Count 
 FROM Fact_User_Cyber_Event AS f
 JOIN Dim_User AS u
-	ON f.User_ID = u.UserID
+    ON f.User_ID = u.UserID
 GROUP BY u.Department
 ORDER BY Event_Count DESC;
 
-/*Average quiz score per training module*/
-/* Reveals which department’s users are most likely to click on phishing links relative to the number 
-of phishing emails they receive.*/
+/* Average quiz score per training module */
+/* Reveals the average quiz performance for each training module, highlighting which modules are better understood. */
 
 SELECT 
     t.Module_Name,
@@ -22,10 +20,8 @@ JOIN Dim_Training AS t
     ON f.Training_ID = t.TrainingID
 GROUP BY t.Module_Name
 ORDER BY Module_Average DESC;
-
-/*Department with highest phishing click rate*/
-/*Indicates how effective each training module is by showing the proportion of users who pass versus fail.*/
-
+/* Department phishing click vs email rate */
+/* Shows the number of phishing clicks versus phishing emails received per department, indicating relative click rates. */
 SELECT 
     u.Department,
     SUM(CASE 
@@ -42,11 +38,8 @@ LEFT JOIN Fact_User_Cyber_Event f
 LEFT JOIN Dim_Event_Type e
     ON f.Event_Type_ID = e.Event_TypeID
 GROUP BY u.Department;
-
-/*Pass vs Fail rate per training module*/
-/*Shows the average performance of users on quizzes for each training module, highlighting which 
-modules are better understood.*/
-
+/* Pass vs Fail rate per training module */
+/* Shows pass and fail counts for each training module, along with pass/fail percentages. */
 SELECT 
     t.Module_Name,
     COUNT(*) AS Total_Attempts,
@@ -66,9 +59,11 @@ JOIN Dim_Training t
 GROUP BY t.Module_Name
 ORDER BY Pass_Rate_Percentage;
 
-/*Find top 10 highest risk users*/
-/*Identifies the individuals with the greatest cumulative risk scores, spotlighting users who pose the highest 
-cybersecurity risk.*/
+
+
+/* Top 10 highest risk users */
+/* Identifies the users with the greatest cumulative risk scores and event counts. */
+
 SELECT TOP 10
     u.User_Name,
     u.Department,
@@ -81,9 +76,28 @@ JOIN Dim_User u
 GROUP BY u.User_Name, u.Department, u.Role
 ORDER BY Total_Risk_Score DESC;
 
-/* Cybersecurity events trend across the year*/
-/* Shows how the volume of cybersecurity events fluctuates month by month, revealing seasonal or 
-periodic patterns.*/
+/* Most common threat types */
+/* Highlights which threat categories occur most frequently, grouped by type and severity. */
+
+SELECT 
+    t.Threat_Type,
+    t.Severity,
+    COUNT(f.EventID) AS Threat_Event_Count
+FROM Fact_User_Cyber_Event f
+INNER JOIN Dim_Threat t
+    ON f.Threat_ID = t.ThreatID
+GROUP BY t.Threat_Type, t.Severity
+ORDER BY Threat_Event_Count DESC;
+
+
+
+
+
+
+
+
+/* Cybersecurity events trend across the year */
+/* Shows monthly counts of cybersecurity events to reveal seasonal or periodic patterns. */
 
 SELECT 
     d.Year,
@@ -96,22 +110,8 @@ JOIN Dim_Date d
 GROUP BY d.Year, d.Month, d.Month_Name
 ORDER BY d.Year, d.Month;
 
-/* Most common threat types users face*/
-/*Highlights which threat categories occur most frequently, helping prioritize defense and awareness efforts.*/
-
-SELECT 
-    t.Threat_Type,
-    t.Severity,
-    COUNT(f.EventID) AS Threat_Event_Count
-FROM Fact_User_Cyber_Event f
-INNER JOIN Dim_Threat t
-    ON f.Threat_ID = t.ThreatID
-GROUP BY t.Threat_Type, t.Severity
-ORDER BY Threat_Event_Count DESC;
-
-/*Full detailed view of every event with all dimension details*/
-/*Provides a comprehensive record of each event, combining user, date, event type, module, and threat 
-information for complete analysis.*/
+/* Full detailed view of every event */
+/* Provides a comprehensive record of each event with user, date, event type, training, and threat details. */
 
 SELECT 
     f.EventID,
